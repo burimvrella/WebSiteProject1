@@ -1,0 +1,32 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(17deg, rgb(59, 59, 59) 43%, #00695c 100%);
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  animation: changeBg 10s infinite alternate linear  
+}
+
+/*@keyframes changeBg{
+  0% {
+    background: #ee6055;
+  }
+  25% {
+    background: #60d394;
+  }
+  50% {
+    background: #aaf683;
+  }
+  75% {
+    background: #ffd97d;
+  }
+  100% {
+    background: #ff9b85;
+  }
+}*/

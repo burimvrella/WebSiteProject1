@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(360deg, #00695c 0%,rgb(59, 59, 59) 100%);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.footer p {
+  color: white;
+}
